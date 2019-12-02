@@ -21,7 +21,7 @@ python -m pip install -U <library>==<version>
 ```
 junyper notebook
 ```
-1. Open spoken-digits-recognition.ipynb or speaker-recognition.ipynb
+1. Open src/spoken-digits-recognition.ipynb or src/speaker-recognition.ipynb
 1. Run all Cells
 
 ### Colab Jupyter Notebook
@@ -30,20 +30,28 @@ junyper notebook
 1. Run all Cells
 
 ## Contents
-* data/recordings/*: wav files with English spoken digits from 0 to 9
-* src/speaker-recognition.ipynb: Junyper Notebook with Neural Network model able to recognize the speaker of English digits (Jackson, Nicolas or Theo)
+* README.md: This file, explaining the project
+* UofT_Final_project.pdf: Project presentation in PDF format
+* UofT_Final_project.pptx: Project presentation in Power Point format
+* spoken_digits_comparison.pdf: Recordings comparisson for each digit for the six speakers
+
+* data/*: wav files with English spoken digits from 0 to 9
+
+* src/lib_version: Python libraries version used in this project
+* src/more_test.csv: Features of the files in data/recordings/moreSpeakersTest
+* src/more_train.csv: Features of the files in data/recordings/moreSpeakersTrain
+* src/speaker-recognition.ipynb: Junyper Notebook with Keras Neural Network model able to recognize the speaker of English digits (Jackson, Nicolas, Theo, Ankur, Caroline and Rodolfo)
+* src/speaker-recognition.pdf: PDF version of an execution of speaker-recognition.ipynb
 * src/spoken-digits-recognition.ipynb: Junyper Notebook with Neural Network model able to recognize English spoken digits
-* src/spoken-digits-recognition-RodolfoAnkur.ipynb: Junyper Notebook with Neural Network model able to recognize English spoken digits. Also tests the digits spoken by Ankur and Rodolfo
-* src/ankur.csv: Features of Ankur skpoken digits
-* src/data.csv: Features of training data skpoken digits
-* src/rodolfo.csv: Features of Rodolfo skpoken digits
-* src/test.csv: Features of test data skpoken digits
+* src/spoken-digits-recognition.pdf: PDF version of an execution of spoken-digits-recognition
+* src/test.csv: Features of the files in data/recordings/test
+* src/train.csv: Features of the files in data/recordings/train
 
 ## Recording Data
-Training and Test data was downloaded from: 
+The files stored in data/recordings/test and data/recordings/train were downloaded from: 
 * https://github.com/Jakobovski/free-spoken-digit-dataset
 * https://github.com/moebg/spoken-digit-recognition
 
-Rodolfo and Ankur provided the recordings stored in data/recordings/rodolfo and data/recordings/ankur
+Ankur, Caroline and Rodolfo provided the recordings stored in data/recordings/moreSpeakersTest and data/recordings/moreSpeakersTrain
 
 
