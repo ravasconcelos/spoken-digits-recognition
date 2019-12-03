@@ -1,5 +1,14 @@
 # spoken-digits-recognition
-Term project for Machine Learning UoT course
+
+University of Toronto School of Continuing Studies
+
+Term project for Machine Learning course
+
+Group: Ankur Tyagi, Haitham Alamri, Rodolfo de Andrade Vasconcelos
+Professor: Matthew MacDonald
+
+## Presentation
+https://www.youtube.com/watch?v=_FXqysbYVGs
 
 ## Business Problem
 * Inference of the digits as said by users on phone
