@@ -5,6 +5,7 @@ University of Toronto School of Continuing Studies
 Term project for Machine Learning course
 
 Group: Ankur Tyagi, Haitham Alamri, Rodolfo de Andrade Vasconcelos
+
 Professor: Matthew MacDonald
 
 ## Presentation
