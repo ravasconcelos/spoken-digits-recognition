@@ -9,7 +9,7 @@ Group: Ankur Tyagi, Haitham Alamri, Rodolfo de Andrade Vasconcelos
 Professor: Matthew MacDonald
 
 ## Presentation
-https://www.youtube.com/watch?v=_FXqysbYVGs
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_FXqysbYVGs/0.jpg)](https://www.youtube.com/watch?v=_FXqysbYVGs)
 
 ## Business Problem
 * Inference of the digits as said by users on phone
@@ -58,10 +58,12 @@ junyper notebook
 * src/train.csv: Features of the files in data/recordings/train
 
 ## Recording Data
-The files stored in data/recordings/test and data/recordings/train were downloaded from: 
-* https://github.com/Jakobovski/free-spoken-digit-dataset
-* https://github.com/moebg/spoken-digit-recognition
+The files stored in data/recordings/test and data/recordings/train were downloaded from FSDD [Ref 1 and 2]: 
 
 Ankur, Caroline and Rodolfo provided the recordings stored in data/recordings/moreSpeakersTest and data/recordings/moreSpeakersTrain
+
+## References
+1. https://github.com/Jakobovski/free-spoken-digit-dataset
+2. https://github.com/moebg/spoken-digit-recognition
 
 
